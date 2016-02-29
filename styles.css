@@ -1,0 +1,173 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	color: purple;
+	font-family: arial;
+	font-size: 30px;
+}
+
+h2{
+	text-align:right;
+	margin-right:10px;
+	margin-left:10px;
+	color: white;
+	font-family: arial;
+	background-color: purple;
+	border: 1px solid black;
+	width:auto;
+	padding:5px;
+	position: relative;
+}
+
+p {
+ 
+  background-color: white;
+  width: 95%;
+  height: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+ 
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/*
+#container{
+	background-color: gray;
+	margin:auto;
+	position:relative;
+
+}/
+
+/*Background colors added for each section for visual distinction*/
+
+#section1 {
+	background-color:blue;
+	float: left;
+}
+
+#section2{
+	background-color: green;
+	float: left;
+}
+
+#section3{
+	background-color: orange;
+	float: left;
+}
+
+
+/*Desktop*/
+
+@media (min-width: 992px) {
+
+#section1 {
+	width: 33%;
+	margin-left:0px;
+	margin-right:2px;
+	position:relative;
+	
+}
+#section2{
+	width: 33%;	
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	}
+
+#section3 {
+	width: 33%;
+	margin-left:2px;
+	margin-right:0px;
+	position: relative;
+	
+}
+
+}
+
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#section1{
+	width:50%;
+	/*
+	Can't seem to figure out how to get margins to work properly sections 1 & 2 when in Tablet size 
+	margin-left:0px
+	margin-right:2px;
+
+	*/
+	
+
+
+
+}
+
+#section2{
+	width:50%;
+	/*
+	Can't seem to figure out how to get margins to work properly sections 1 & 2 when in Tablet size
+
+	margin-left:4px
+	margin-right:2px;
+	
+*/
+	
+}
+#section3{
+	width:100%;
+	/*
+	Can't seem to figure out how to get margins to work properly sections 1 & 2 when in Tablet size
+
+	margin-left:0px
+	margin-right:0px;
+	margin-top:4px;
+	
+	*/
+	
+
+}
+}
+
+
+/*Mobile*/
+
+@media (max-width: 767px) {
+
+#section1{
+	width:100%;
+	margin-top:2px;
+	margin-bottom:2px;
+	position: relative;
+	
+
+}
+#section2{
+	width:100%;
+	margin-top:2px;
+	margin-bottom:2px;
+	position: relative;
+	
+	
+}
+#section3{
+	width:100%;
+	margin-top:2px;
+	margin-bottom:2px;
+	position: relative;
+	
+}
+
+}
+
